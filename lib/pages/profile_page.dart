@@ -8,7 +8,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:uicons/uicons.dart';
 import 'package:video_player/video_player.dart';
 
-import '../users_list.dart';
+import '../constants.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key, required this.user, required this.controller});

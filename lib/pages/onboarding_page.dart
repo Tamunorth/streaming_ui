@@ -8,7 +8,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:streaming_ui/pages/base_page.dart';
 import 'package:streaming_ui/pages/home_page.dart';
-import 'package:streaming_ui/users_list.dart';
+import 'package:streaming_ui/constants.dart';
 
 class OnBoardingPage extends StatefulWidget {
   const OnBoardingPage({super.key});

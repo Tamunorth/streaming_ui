@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:streaming_ui/custom_nav_item.dart';
 import 'package:streaming_ui/pages/home_page.dart';
-import 'package:streaming_ui/users_list.dart';
+import 'package:streaming_ui/constants.dart';
 import 'package:uicons/uicons.dart';
 
 class BasePage extends StatefulWidget {

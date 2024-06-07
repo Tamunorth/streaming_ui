@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:streaming_ui/users_list.dart';
+import 'package:streaming_ui/constants.dart';
 
 class CustomNavItem extends StatefulWidget {
   const CustomNavItem({
