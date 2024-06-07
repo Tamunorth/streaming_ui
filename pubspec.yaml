@@ -40,7 +40,7 @@ dependencies:
   video_player:
 
   cached_video_player:
-  flutter_animate:
+#  flutter_animate:
 
 dev_dependencies:
   flutter_test:

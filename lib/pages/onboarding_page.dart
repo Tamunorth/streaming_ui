@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:streaming_ui/pages/base_page.dart';
 import 'package:streaming_ui/pages/home_page.dart';
@@ -166,22 +165,6 @@ class _OnBoardingPageState extends State<OnBoardingPage>
                     onTap: () async {
                       buttonVisible.value = false;
 
-                      // Navigator.of(context).push(
-                      //   PageRouteBuilder(
-                      //     transitionDuration: const Duration(milliseconds: 1000),
-                      //     reverseTransitionDuration: const Duration(milliseconds: 500),
-                      //     transitionsBuilder:
-                      //         (context, animation, secondaryAnimation, child) {
-                      //       return FadeTransition(
-                      //         opacity: animation,
-                      //         child: child,
-                      //       );
-                      //     },
-                      //     pageBuilder: (_, __, ___) {
-                      //       return BasePage();
-                      //     },
-                      //   ),
-                      // );
                       Future.wait([
                         animationController.reverse(),
                         fadeAnimationCtrl.reverse(),

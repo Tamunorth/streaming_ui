@@ -4,7 +4,6 @@ import 'package:cached_video_player/cached_video_player.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:uicons/uicons.dart';
 import 'package:video_player/video_player.dart';
 
