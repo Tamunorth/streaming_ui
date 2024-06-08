@@ -34,18 +34,16 @@ class HomePage extends StatelessWidget {
                     builder: (context) => const BasePage(),
                   ),
                 ),
-                child: const HomeAppBar(),
+                child: const _HomeAppBar(),
               ),
 
               //AVATAR
-
               const AvatarRow(),
 
               //CATEGORIES
               const CategoriesList(),
 
-              ///
-              /// ListView
+              //LISTVIEW
               Expanded(
                 child: ListView.builder(
                   padding: const EdgeInsets.fromLTRB(0, 16, 0, 100),
@@ -70,16 +68,16 @@ class HomePage extends StatelessWidget {
   }
 }
 
-class HomeAppBar extends StatefulWidget {
-  const HomeAppBar({
+class _HomeAppBar extends StatefulWidget {
+  const _HomeAppBar({
     super.key,
   });
 
   @override
-  State<HomeAppBar> createState() => _HomeAppBarState();
+  State<_HomeAppBar> createState() => _HomeAppBarState();
 }
 
-class _HomeAppBarState extends State<HomeAppBar>
+class _HomeAppBarState extends State<_HomeAppBar>
     with SingleTickerProviderStateMixin {
   late Animation<double> _fadeAnimation;
   late AnimationController _fadeCtrl;
